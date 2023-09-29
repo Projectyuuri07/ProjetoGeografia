@@ -169,4 +169,8 @@ section {
     .titulo h2 {
             font-size: 24px;
     }
+
+    .direcao {
+        flex-direction: column-reverse;
+    }
 }

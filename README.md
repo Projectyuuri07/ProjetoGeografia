@@ -1,357 +1,41 @@
 # ProjetoGeografia
 
-style.css
+# Projeto Geo - Mobilidade Urbana em Jundiaí
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700;800;900&display=swap');
+## Descrição do Projeto
 
-*{
-    scroll-behavior: smooth;
-    margin: 0px;
-    padding: 0;
-    margin: 0;
-    outline: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    }
+O **Projeto Geo** é um estudo sobre mobilidade urbana na cidade de Jundiaí, localizada no estado de São Paulo, com o objetivo de analisar os desafios relacionados à infraestrutura viária, transporte público e acessibilidade. O projeto visa identificar problemas e propor soluções para melhorar a qualidade de vida dos cidadãos e a eficiência da cidade.
 
-body{
-    background-color:rgb(255, 255, 255);
-}
+## Conteúdo
 
-.texto{
-    font-size: 15px;
-    color: #000;
-    text-align: justify;
-}
+- [Introdução](#introdução)
+- [Congestionamento](#congestionamento)
+- [Transporte Público](#transporte-público)
+- [Piso Tátil](#piso-tátil)
+- [Terrenos Irregulares](#terrenos-irregulares)
+- [Conclusão](#conclusão)
+- [Licença](#licença)
 
-.texto p{
-    font-size: 15px;
-    color: #000;
-    text-align: justify;
-    padding: 5px;
-}
+## Introdução
 
-.menu{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 1rem;
-}
+A mobilidade urbana é um tema de grande relevância nas cidades modernas, e a cidade de Jundiaí, como muitas outras, enfrenta desafios relacionados à infraestrutura viária e à acessibilidade de seus cidadãos. Esta seção fornece uma visão geral do projeto e suas metas.
 
-.logo{
-    width: 90px ;
-    display: flex;
-    align-items: center;
+## Congestionamento
 
-}
+Esta seção aborda o problema do congestionamento de trânsito em Jundiaí. Exploramos as causas, impactos e possíveis soluções para aliviar o congestionamento nas vias da cidade.
 
-.titulo1{
-    display: flex;
-    align-items: center;
-    margin: 1rem;
-    color: #000;
-}
+## Transporte Público
 
-.titulo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
-    color: #454242;
-    padding: 14px;
-    font-size: 34px;
-    border: 3px solid #454242;    
+Nesta parte do projeto, analisamos o sistema de transporte público em Jundiaí, destacando os desafios de superlotação, atrasos e segurança. Também apresentamos sugestões para melhorar a qualidade do transporte público na cidade.
 
-}
+## Piso Tátil
 
-.rodape{
-    display: flex;
-    height: 100px ;
-    align-items: center;
-    padding: 20px;
-    font-size: 18px;
-    background-color: #000000;
-    color: #fff;
-}
+O capítulo sobre piso tátil se concentra na acessibilidade para deficientes visuais em Jundiaí. Discutimos a implementação de faixas táteis, suas deficiências e maneiras de melhorar a segurança e a independência das pessoas com deficiência visual.
 
-section {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
+## Terrenos Irregulares
 
-.imag {
-    flex: 1;
-    padding: 20px;
-}
+Esta seção explora os desafios apresentados por terrenos irregulares e desníveis nas calçadas da cidade. Discutimos os riscos associados a essas condições e sugerimos maneiras de tornar as calçadas mais seguras e acessíveis.
 
-.texto {
-    flex: 1;
-    padding: 20px;
-}
+## Conclusão
 
-.imag img {
-    width: 100%;
-    height: auto;
-}
-
-.imag2{
-    flex: 1;
-    padding: 30px;
-}
-
-.imag2 img{
-    width: 420px;
-    height: auto;
-    margin: 3px;
-}
-
-.flex{
-    background: url(./img/jundas_flex.jpg);
-    width: 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: rgba(0, 0, 0, 0.3);
-    background-blend-mode: color;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-attachment: fixed;
-}
-
-.jundas{
-    border: 5px solid #fff;    
-    color: #fff;
-    padding: 40px;
-    font-size: 20px;
-    letter-spacing: 10px;
-}
-
-@media (max-width: 900px){
-
-    .logo{
-        display: flex;
-        flex-direction: column;
-    }
-    .menu{
-        display: flex;
-        flex-direction: column;
-    }
-    .titulo{
-        display: flex;
-        flex-direction: column;
-    }
-    .rodape{
-        display: flex;
-        flex-direction: column;
-    }
-    section{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-}
-
-index.html
-
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="img/logo.png">
-    <title>Projeto Geo</title>
-</head>
-<body>
-
-    <header class="menu">
-        <div class="logo">
-                <img src="img/logo.png" alt="Logo" class="logo">
-        </div>
-        <div class="titulo1">
-            <h1>Mobilidade Urbana</h1>
-        </div>
-    </header>
-
-    <main>
-        <section class="flex">
-            <div class="jundas">
-                <h2>Jundiaí</h2>
-            </div>
-        </section>
-
-        <div class="titulo">
-            <h2>Introdução</h2>
-        </div>
-
-        <section>
-            <div class="textoM">
-                <p>
-                    A mobilidade urbana é um tema de grande relevância nas cidades modernas, e a cidade de Jundiaí, localizada no estado de São Paulo, não é exceção. Como muitas áreas urbanas em 
-                    todo o mundo, Jundiaí enfrenta uma série de desafios relacionados à sua infraestrutura viária e à acessibilidade de seus cidadãos.
-                    Apesar desses desafios, Jundiaí tem a oportunidade de se destacar como uma cidade que prioriza a mobilidade urbana eficiente e inclusiva. Isso requer investimentos estratégicos em 
-                    infraestrutura, políticas de transporte público mais sólidas, planejamento urbano sustentável e conscientização pública.
-                    Nesta análise, exploraremos esses desafios em detalhes e apresentaremos soluções possíveis para melhorar a mobilidade urbana em Jundiaí. Ao trabalharmos juntos como comunidade e 
-                    com o compromisso das autoridades locais, é possível criar uma cidade mais acessível, segura e habitável para todos os seus cidadãos.
-                </p>
-            </div>
-        </section>
-
-        <div class="titulo">
-            <h2>Congestionamento</h2>
-        </div>
-
-        <section>
-            <div class="imag">
-                <img src="img/transito.jpg">
-            </div>
-            <div class="texto">
-                <p>
-                    A cidade de Jundiaí, situada no estado de São Paulo, é uma região próspera e em constante crescimento, mas também enfrenta uma série de desafios significativos relacionados aos problemas urbanos. 
-                    Esses desafios impactam diretamente a qualidade de vida dos habitantes e a eficiência da cidade como um todo.
-                </p>
-                <p>
-                    Um dos problemas mais prementes que a cidade enfrenta é o trânsito caótico que frequentemente congestiona suas principais vias, especialmente durante os horários de pico. Durante essas horas, 
-                    quando trabalhadores estão saindo de seus empregos e estudantes estão saindo das escolas, o trânsito pode se transformar em um verdadeiro pesadelo, resultando em atrasos significativos e estresse 
-                    para os cidadãos. Muitos motoristas acabam presos em congestionamentos que podem durar horas, afetando não apenas seu tempo, mas também sua produtividade e saúde mental.
-                </p>
-                <p>
-                    As causas desse trânsito caótico em Jundiaí são diversas. O crescimento populacional e a urbanização rápida contribuem para um aumento constante no número de veículos nas ruas. Além disso, 
-                    a falta de investimentos em infraestrutura viária e de transporte público eficiente também agrava a situação. A ausência de alternativas de mobilidade sustentável, como ciclovias seguras e 
-                    incentivos ao uso do transporte público, faz com que muitos cidadãos dependam exclusivamente de seus veículos particulares.
-                    Para enfrentar esse desafio, a cidade de Jundiaí precisa adotar uma abordagem integrada e abrangente.
-
-                </p>
-            </div>
-        </section>
-
-        <div class="titulo">
-            <h2>Transporte Publico</h2>
-        </div>
-    
-        <section>
-            <div class="texto">
-                <p>
-                    O sistema de transporte público em Jundiaí, apesar de existente, enfrenta deficiências significativas que afetam diretamente a vida dos cidadãos e a qualidade geral da mobilidade 
-                    urbana na cidade. Uma das principais preocupações é a superlotação crônica que frequentemente atinge os ônibus, criando um ambiente desconfortável e, em alguns casos, perigoso para 
-                    os passageiros.
-                </p>
-                <p>
-                    A superlotação não só torna a experiência de viajar nos ônibus estressante e desconfortável, mas também representa um risco à segurança. Os passageiros frequentemente se encontram 
-                    espremidos em espaços apertados, o que não apenas gera desconforto físico, mas também aumenta o risco de acidentes em situações como freadas bruscas ou colisões. Além disso, a 
-                    superlotação muitas vezes leva a conflitos entre passageiros, criando um ambiente desagradável para todos.
-                </p>
-                <p>
-                    Outro problema crítico é a ocorrência de atrasos frequentes e a prática de motoristas manterem as portas abertas, mesmo quando os ônibus já estão superlotados. Isso resulta em 
-                    esperas prolongadas nos pontos de ônibus e na incerteza de chegar a tempo ao destino, o que pode ser especialmente prejudicial para aqueles que dependem do transporte público para 
-                    cumprir horários de trabalho, escola ou outros compromissos.
-                </p>
-                    Esses problemas impactam negativamente a qualidade de vida dos cidadãos de Jundiaí. O estresse associado à incerteza sobre o tempo de chegada, a falta de espaço nos ônibus e as 
-                    condições desconfortáveis pode ter efeitos adversos na saúde mental e física das pessoas. Além disso, o tempo perdido devido a atrasos e superlotação representa uma perda 
-                    significativa em termos de produtividade e qualidade do tempo livre dos cidadãos.
-                </p>
-            </div>
-            
-            <div class="imag">
-                <img src="img/Superlotação.jpg">
-            </div>
-            
-        </section>
-
-        <div class="titulo">
-            <h2>Piso Tátil</h2>
-        </div>
-    
-        <section>
-            <div class="imag">
-                <img src="img/Calçada cego.jpg">
-            </div>
-            <div class="imag">
-                <video controls>
-                    <source src="img/calçada cego2.mp4" type="video/mp4" >
-                </video>
-            </div>
-            
-            <div class="texto">
-                <p>
-                    Outro desafio significativo em Jundiaí, que infelizmente é compartilhado por muitas outras áreas urbanas, é a iniciativa da prefeitura em relação à acessibilidade para deficientes 
-                    visuais. A intenção de criar faixas táteis nas ruas é louvável, pois visa proporcionar uma maior independência e segurança para as pessoas com deficiência visual ao se locomoverem 
-                    pela cidade. No entanto, a implementação dessas faixas táteis nem sempre atende às necessidades reais dessas pessoas, levantando preocupações sérias.
-                </p>
-                <p>
-                    Uma questão particularmente alarmante é o fato de que essas faixas táteis frequentemente terminam de maneira abrupta, como evidenciado na imagem fornecida. Essas interrupções 
-                    inesperadas no percurso podem representar um risco significativo para a segurança dos deficientes visuais. Imagine a experiência de alguém confiando na faixa tátil para navegar de 
-                    forma segura pelas ruas da cidade, apenas para descobrir que ela repentinamente desaparece em um terreno irregular. Isso não apenas pode causar confusão, mas também aumenta o risco 
-                    de tropeços e quedas.
-                </p>
-            </div>
-        </section>
-
-        <div class="titulo">
-            <h2>Terrenos Irregulares</h2>
-        </div>
-    
-        <section>
-            <div class="texto">
-                <p>
-                    É notável que em Jundiaí, assim como em muitas outras cidades, existem relatos de terrenos irregulares que representam um sério desafio para a acessibilidade e a segurança pública. 
-                    Esses desníveis no relevo e na altura da calçada, muitas vezes resultantes de má conservação ou desníveis naturais, podem ter implicações profundas na vida diária dos cidadãos.
-                </p>
-                <p>
-                    Um dos principais problemas associados a esses terrenos irregulares é o risco de acidentes. Pessoas idosas, por exemplo, são particularmente suscetíveis a quedas, e terrenos
-                     irregulares podem tornar a locomoção delas ainda mais perigosa. Além disso, qualquer pessoa distraída ou que esteja usando uma bicicleta, skate ou até mesmo carrinhos de bebê 
-                     pode ser surpreendida por esses obstáculos, o que pode levar a quedas e lesões.
-                </p>
-                <p>
-                    Para aqueles com deficiências físicas ou visuais, os terrenos irregulares representam uma barreira significativa. Pessoas com cadeiras de rodas, carrinhos de bebê adaptados ou 
-                    outros dispositivos de mobilidade podem ter dificuldades em navegar por esses terrenos, o que pode limitar sua liberdade de locomoção e independência. Além disso, para pessoas 
-                    com deficiências visuais, a presença de desníveis e obstáculos imprevisíveis pode ser especialmente perigosa, já que eles não podem identificar essas barreiras apenas com base 
-                    na visão.
-                </p>
-            </div>
-            
-            <div class="imag2">
-                <img src="img/calçada irregular.jpg">
-                <img src="img/calçada alta.jpg">
-            </div>
-            
-        </section>
-
-        <div class="titulo">
-            <h2>Conclusão</h2>
-        </div>
-
-        <section>
-            <div class="imag">
-                <img src="img/Terreno irregular.jpg">
-            </div>
-            <div class="texto">
-                <p>
-                    Em conclusão, Jundiaí, como muitas outras cidades urbanas, enfrenta uma série de desafios relacionados à mobilidade urbana e acessibilidade. O trânsito caótico, as deficiências no 
-                    sistema de transporte público, a falta de continuidade nas faixas táteis e os terrenos irregulares nas calçadas são questões que impactam diretamente a qualidade de vida dos 
-                    cidadãos e a segurança pública.
-                </p>
-                <p>
-                    No entanto, é importante ressaltar que esses desafios não são insuperáveis. A resolução dessas questões requer um compromisso firme das autoridades locais, bem como a participação
-                    ativa da comunidade. É crucial que a cidade de Jundiaí adote uma abordagem integrada, investindo em infraestrutura, planejamento urbano sustentável, treinamento adequado, 
-                    conscientização pública e consultas com a comunidade.
-                </p>
-                <p>
-                    Ao enfrentar esses desafios de frente, Jundiaí tem a oportunidade de se transformar em uma cidade mais acessível, segura e habitável para todos os seus habitantes. Além disso, ao 
-                    implementar soluções inovadoras e priorizar a mobilidade sustentável, a cidade pode se tornar um modelo de excelência em termos de qualidade de vida urbana. A resolução desses 
-                    problemas requer esforços conjuntos e contínuos, mas os benefícios para a comunidade valerão a pena o investimento.
-                </p>
-            </div>
-        </section>
-    </main>
-
-    <footer class="rodape">
-        <p>Copyright © 2023 ProjetoGeografia Inc. Todos os direitos reservados</p> 
-    </footer>
-</body>
-</html>
+A conclusão do projeto resume os principais pontos abordados em cada seção e destaca a importância de soluções integradas e colaborativas para melhorar a mobilidade urbana em Jundiaí
